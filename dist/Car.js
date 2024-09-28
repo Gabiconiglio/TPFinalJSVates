@@ -1,4 +1,4 @@
-import { Vehicle } from "./Vehicle";
+import { Vehicle } from "./Vehicle.js";
 export class Car extends Vehicle {
     constructor(brand, model, maximumSpeed, numberOfDoors) {
         super(brand, model, maximumSpeed);
@@ -14,6 +14,6 @@ export class Car extends Vehicle {
         console.log(`The car is accelerating to ${speed} km/h.`);
     }
     curb() {
-        return "the car is braking";
+        return "The car is braking";
     }
 }

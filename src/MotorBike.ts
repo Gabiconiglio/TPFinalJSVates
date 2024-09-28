@@ -24,6 +24,6 @@ export class MotorBike extends Vehicle {
     console.log(`The motorbike is accelerating to ${speed} km/h.`);
   }
   curb(): string {
-    return "the motorbike is braking";
+    return "The motorbike is braking";
   }
 }

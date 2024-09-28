@@ -20,10 +20,7 @@ function changeBoxColors(): void {
 function changeBoxText(): void {
   for (let i = 0; i < boxes.length; i++) {
     const box = boxes[i];
-    console.log(box);
-    console.log(box.textContent);
-    
-    if (box.textContent?.includes('Caja')) {
+    if (box.textContent?.includes("Caja")) {
       box.textContent = "Nuevo Texto " + [i + 1];
     } else {
       box.textContent = "Caja " + [i + 1];

@@ -5,7 +5,7 @@ const boxes = document.querySelectorAll(".box");
 function changeBoxColors() {
     for (let i = 0; i < boxes.length; i++) {
         const box = boxes[i];
-        if (box.style.backgroundColor === "lightgray") {
+        if (box.style.backgroundColor === "lightgray" || !box.style.backgroundColor) {
             box.style.backgroundColor = "blue";
         }
         else {
